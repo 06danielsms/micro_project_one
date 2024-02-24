@@ -57,7 +57,7 @@ nest-asyncio==1.6.0
 networkx==3.2.1
 numba==0.58.1
 numpy==1.25.2
-opencv-python==4.5.1.48
+opencv-python==4.9.0.80
 openpyxl==3.1.2
 packaging==23.2
 pandas==2.2.0
@@ -100,7 +100,7 @@ smmap==5.0.1
 soupsieve==2.5
 stack-data==0.6.3
 statsmodels==0.14.1
-streamlit==1.8.0
+streamlit==1.31.1
 tangled-up-in-unicode==0.2.0
 tenacity==8.2.3
 text-unidecode==1.3
