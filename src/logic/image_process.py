@@ -103,7 +103,7 @@ class ImageProcess:
 
         plt.xlabel('X-axis Label')
         plt.ylabel('Y-axis Label')
-        plt.title('Scatter Plot with Categories')
+        plt.title('Dispersión PCA colores')
         plt.legend()
         if st_plot:
             st.pyplot()
