@@ -15,7 +15,7 @@ if uploaded_image is not None:
 
     target_size = st.sidebar.slider("Seleccionar tamaño (píxeles)", 50, 500, 200)
     transform = st.sidebar.checkbox('Transform')
-
+    st.sidebar.markdown('''<small>[Paleta v0.0.1](https://github.com/06danielsms/micro_project_one/tree/main)  | 2024 | [Daniel Moreno](https://github.com/06danielsms) - [Andrés Lenis](https://github.com/lenis96)</small>''', unsafe_allow_html=True)
     image = Image.open(uploaded_image)
     file_name = uploaded_image.name
     image = image_process.load_single_image(image, file_name)
