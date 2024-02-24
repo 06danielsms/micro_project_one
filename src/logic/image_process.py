@@ -233,13 +233,6 @@ class ImageProcess:
             if processed_images >= num_images:
                 break
             
-    """ def analyze_single_image(self, image_process, image_original, num_clusters=7):
-        centroids, labels = self.kmeans_image(image_process, num_clusters)
-        draw = self.draw_image_palette(image_original, centroids, st_plot=True)
-        x_train_reduced = self.dimensionality_reduction(image_process, centroids[labels])        
-        elbow = self.elbow_method(x_train_reduced)
-        silhouette = self.silhouette_plot(x_train_reduced) """
-
 if __name__ == "__main__":
     root_path = '/home/satoru/repos/u_andes/maia/mlns/micro_projects/one/sample'
     image_analyzer = ImageProcess(root_path)
