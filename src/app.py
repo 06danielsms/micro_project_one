@@ -36,6 +36,6 @@ if uploaded_image is not None:
     image_process.plot_colors(centroids)
     x_train_reduced = image_process.dimensionality_reduction(image_result[0], centroids[labels], st_plot=True)        
     elbow = image_process.elbow_method(x_train_reduced, st_plot=True)
-    silhouette = image_process.silhouette_plot(x_train_reduced, st_plot=True)
+    # silhouette = image_process.silhouette_plot(x_train_reduced, st_plot=True)
     
     
